@@ -1,0 +1,757 @@
+html{
+    background-color: black;
+}
+.main_grid{
+    width: 1600px;
+    height: 1600px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+
+}
+.grid_item_logo{
+    width: 700px;
+    height: 700px; 
+    grid-column-start: 1; 
+    grid-column-end: 7; 
+    grid-row-start: 1; 
+    grid-row-end: 7;
+}
+.grid_item_letras{
+    width: 1000px;
+    height: 700px;
+    display: relative;
+    grid-column-start: 8; 
+    grid-column-end: 14; 
+    grid-row-start: 2; 
+    grid-row-end: 7;
+ 
+}
+
+
+.padre{
+    background: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hijo {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0%;
+}
+.hijo_2 {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*  */
+ margin: 0%;
+
+}
+.grid{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    margin: 0%;
+    display: grid;
+
+}
+.espacio_letra {
+    display: inline-block;
+    height: 340px;
+    width: 80px;
+    margin: 3px;
+    position: relative;
+}
+/*
+***************************************
+LETRA A *******************************
+***************************************
+***************************************
+*/
+.vertical_1_A_1{
+    position:   absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    border-radius: 5px;
+    left: 5px;
+    top: 40px;
+}
+.letra_A_celeste_VERTICAL_1{
+    background-color: #01c8bd;
+    left: 0px;
+}
+.letra_A_rosa_VERTICAL_1{
+    left: 10px;
+    background-color: #ea276d;
+}
+.vertical_2_A_1{
+    position:   absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    left: 55px;
+    top: 40px;
+    border-radius: 5px;
+}
+.letra_A_celeste_VERTICAL_2{
+    position:   absolute;
+    left: 50px;
+    background-color: #01c8bd;    
+}
+.letra_A_rosa_VERTICAL_2{
+    left: 60px;
+    position:   absolute;
+    background-color: #ea276d;
+}
+.horizontal_1_A_1{
+    position:   absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
+
+
+
+}
+.horizontal_2_A_1{
+    position:   absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 120px;
+
+
+
+}
+/*
+***************************************
+FIN LETRA A ***************************
+***************************************
+***************************************
+*/
+/**************************************
+LETRA X ***************************
+***************************************
+***************************************
+*/
+.inclinada_1_X_1{
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 30px;
+    width: 20px;
+    height: 300px;
+    border-radius: 5px;
+}
+.inclinada_1_X_1_celeste{
+    left: 25px;
+    background-color: #01c8bd;
+
+}
+.inclinada_1_X_1_rosa{
+    left: 35px;
+    background-color: #ea276d;
+}
+.inclinada_2_X_1{
+    transform: rotate(170deg);
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    border-radius: 5px;
+    top: 40px;
+    left: 30px;
+}
+.inclinada_2_X_1_celeste{
+    left: 25px;
+    background-color: #01c8bd;    
+}
+.inclinada_2_X_1_rosa{
+    left: 35px;
+    background-color: #ea276d;
+}
+/*
+***************************************
+FIN LETRA X ***************************
+***************************************
+***************************************
+*/
+
+/**************************************
+LETRA O ***************************
+***************************************
+***************************************
+*/
+.vertical_1_O_1{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    left: 5px;
+    top: 40px;
+    border-radius: 5px;
+}
+.letra_O_celeste_VERTICAL_1{
+    left: 0px;
+    background-color: #01c8bd;
+
+}
+.letra_O_rosa_VERTICAL_1{
+    left: 10px;
+    background-color: #ea276d;
+}
+.vertical_2_O_1{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    left: 55px;
+    top: 40px;
+    border-radius: 5px;
+}
+.letra_O_celeste_VERTICAL_2{
+    left: 50px;
+    background-color: #01c8bd;    
+}
+.letra_O_rosa_VERTICAL_2{
+    left: 60px;
+    background-color: #ea276d;
+}
+.horizontal_1_O_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
+
+}
+.horizontal_2_O_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    bottom: 0px;
+
+}
+/*
+***************************************
+FIN LETRA O***************************
+***************************************
+***************************************
+*/
+
+/**************************************
+LETRA Z ***************************
+***************************************
+***************************************
+*/
+.inclinada_1_Z_1{
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 30px;
+    width: 20px;
+    height: 300px;
+    border-radius: 5px;
+}
+.inclinada_1_Z_1_celeste{
+    left: 25px;
+    background-color: #01c8bd;
+
+}
+.inclinada_1_Z_1_rosa{
+    left: 35px;
+    background-color: #ea276d;
+}
+.horizontal_1_Z_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    right: 5px;
+    top: 40px;
+    border-radius: 5px;
+
+}
+.horizontal_2_Z_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 5px;
+    bottom: 0px;
+    border-radius: 5px;
+
+}
+
+/*
+***************************************
+FIN LETRA Z ***************************
+***************************************
+***************************************
+*/
+
+/**************************************
+LETRA E ***************************
+***************************************
+***************************************
+*/
+.vertical_1_E_1{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    left: 5px;
+    top: 40px;
+    border-radius: 5px;
+}
+.letra_E_celeste_VERTICAL_1{
+    left: 0px;
+    background-color: #01c8bd;
+
+}
+.letra_E_rosa_VERTICAL_1{
+    left: 10px;
+    background-color: #ea276d;
+}
+
+.letra_E_celeste_VERTICAL_2{
+    left: 1125px;
+    background-color: #01c8bd;    
+}
+.letra_E_rosa_VERTICAL_2{
+    left: 1135px;
+    background-color: #ea276d;
+}
+.horizontal_1_E_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
+    border-radius: 5px;
+
+}
+.horizontal_2_E_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 170px;
+    border-radius: 5px;
+
+}
+.horizontal_3_E_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    bottom: 0px;
+    border-radius: 5px;
+
+
+}
+/*
+***************************************
+FIN LETRA E ***************************
+***************************************
+***************************************
+*/
+
+/**************************************
+LETRA R ***************************
+***************************************
+***************************************
+*/
+.vertical_1_R_1{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 300px;
+    top: 40px;
+    left: 10px;
+    border-radius: 5px;
+}
+.letra_R_celeste_VERTICAL_1{
+    left: 5px;
+    background-color: #01c8bd;
+
+}
+.letra_R_rosa_VERTICAL_1{
+    left: 15px;
+    background-color: #ea276d;
+}
+.vertical_2_R_1{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 130px;
+    top: 50px;
+    left: 50px;
+    border-radius: 5px;
+}
+.vertical_2_R_1_celeste{
+    left: 45px;
+    background-color: #01c8bd;
+}
+.vertical_2_R_1_rosa{
+    height: 150px;
+    left: 55px;
+    top: 40px;
+    background-color: #ea276d;
+}
+.horizontal_3_R_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 170px;
+    border-radius: 5px;
+
+
+}
+.horizontal_1_R_1{
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
+    border-radius: 5px;
+}
+.inclinada_1_R_1{
+    transform: rotate(-5deg);
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left:40px;
+    width: 20px;
+    height: 160px;
+    border-radius: 5px;
+}
+.inclinada_1_R_1_celeste{
+    left: 35px;
+    background-color: #01c8bd;    
+}
+.inclinada_1_R_1_rosa{
+    left: 45px;
+    background-color: #ea276d;
+}
+/*
+***************************************
+FIN LETRA R ***************************
+***************************************
+***************************************
+*/
+/*
+***************************************
+LOGO TWITCH ***************************
+***************************************
+***************************************
+*/
+.espacio_logo_twitch {
+    display: inline-block;
+    height: 340px;
+    width: 300px;
+    margin-left: 25px;
+    position: relative;
+}
+.cuadro_morado_principal {
+    position: absolute;
+    background-color: #6440a5;
+    height: 280px;
+    width: 250px;
+    left: 20px;
+    top: 30px;
+
+}
+.cuadro_blanco_principal {
+    position: absolute;
+    background-color: white;
+    height: 170px;
+    width: 200px;
+    left: 50px;
+    top: 60px;
+
+}
+.ojo_morado_izq {
+    position: absolute;
+    background-color: #6440a5;
+    height: 90px;
+    width: 20px;
+    left: 120px;
+    top: 80px;
+
+}
+.ojo_morado_der{
+    position: absolute;
+    background-color: #6440a5;
+    height: 90px;
+    width: 20px;
+    left: 190px;
+    top: 80px;
+}
+.triangulo-negro_esquina_derecha {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-top: 30px solid black;
+    border-left: 50px solid black;
+    border-bottom: 80px solid transparent;
+   
+}
+.triangulo-blanco {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 20px solid white; 
+    right: 135px;
+    bottom: 70px;
+    transform: rotate(180deg);
+}
+.cuadro_negro_inferior_derecha{
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    bottom: 0px;
+    left: 0px;
+
+}
+.triangulo_negro_de_apoyo {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black; 
+    right: 140px;
+    bottom: 30px;
+
+}
+.cuadro_negro_inferior_izquierda{
+    position: absolute;
+    background-color: black;
+    width: 140px;
+    height: 70px;
+    bottom: 0px;
+    right: 0px;
+
+}
+.triangulo_morado_de_apoyo{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #6440a5;
+    border-bottom: 30px solid #6440a5; 
+    right: 40px;
+    bottom: 100px;
+
+}
+.triangulo_negro_de_apoyo_esquina_izq_inf{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-right: 40px solid black;
+    border-bottom: 40px solid black; 
+    right: 30px;
+    bottom: 70px;
+
+}
+/*
+***************************************
+FIN LOGO TWITCH ***************************
+***************************************
+***************************************
+*/
+/*
+***************************************
+LOGO AXOZER ***************************
+***************************************
+***************************************
+*/
+.cuadro_parpadeante_1{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: green;
+}
+.barra_cruzada_1{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 565px;
+    height: 65px;
+    background-color: white;
+}
+.barra_cruzada_2{
+    position: absolute;
+    transform: rotate(135deg);
+    width: 565px;
+    height: 65px;
+    background-color: white;
+}
+.barra_superior{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: white;
+    top: 173px;
+    left: 200px;
+}
+.barra_inferior{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    background-color: white;
+    bottom: 173px;
+    right: 200px;
+}
+.barra_superior_negra_asistente{
+    position: absolute;
+    width: 356px;
+    height: 67px;
+    right: 0%;
+    top: 106px;
+}
+.barra_inferior_negra_asistente{
+    position: absolute;
+    width: 356px;
+    height: 67px;
+    left: 0%;
+    bottom: 106px;
+}
+.capa_azul_posicion {
+    position: relative;
+    right: 20px;
+}
+.capa_rosa_posicion {
+    position: relative;
+    left: 20px;    
+}
+.esquina_azul_superior{
+    position: absolute;
+    width: 18px;
+    height: 92px;
+    left: 150px;
+    top: 127px;    
+}
+.esquina_blanca_superior{
+    background-color: white;
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    left: 168px;
+    top: 120px;    
+}
+.esquina_blanca_superior_fix{
+    transform: rotate(225deg);
+    position: absolute;
+    width: 30px;
+    height: 14px;
+    left: 163px;
+    top: 115px;    
+}
+.esquina_negra_superior{
+    position: absolute;
+    width: 54px;
+    height: 140px;
+    left: 100px;
+    top: 90px;
+}
+.esquina_rosa_superior{
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    left: 163px;
+    top: 90px;
+}
+.esquina_negra_superior_fix{
+    transform: rotate(225deg);
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 150px;
+    top: 123px;
+}
+.esquina_negra_inferior{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 547px;
+    top: 475px;    
+}
+.esquina_rosa_inferior{
+    background-color: black;
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    right: 153px;
+    bottom: 137px;
+}
+.esquina_azul_inferior{
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    left: 527px;
+    top: 473px;   
+}
+
+.asistente{
+    background-color: black;
+}
+.capa_azul_color {
+    background-color: #01c8bd;
+}
+.capa_rosa_color {
+    background-color: #ea276d;
+}
+.animated {
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    height: 20px;
+    width: 50px;
+    background-color: black;
+    animation: twinkle 0.5s infinite alternate;
+  
+} 
+
+
+@keyframes twinkle {
+    0%{
+        opacity:.0.8;
+    }
+    100%{
+        opacity:0;
+    }
+}
